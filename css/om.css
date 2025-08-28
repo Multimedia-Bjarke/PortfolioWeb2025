@@ -1,0 +1,276 @@
+/*Colors*/
+
+:root{
+    --Black: #000000;
+    --White: #ffffff;
+    --Orange: #FF9100;
+}
+
+/*Fonts*/
+h2{
+color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h4{
+    font-style: italic;
+    font-weight:400;
+}
+
+ul{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-self: center;
+    padding-left: 0;
+}
+
+li{
+    font-size: 30px;
+    list-style:none;
+}
+/*Local Srollability - Overflow*/
+body{
+    overflow: visible;
+    background-color: var(--White);
+}
+/*Header*/
+header {
+    display: none;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    z-index: 100;
+    margin: 1rem;
+}
+
+/*MAIN*/
+main{
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../images/baggrunde/BaggrundOm.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/*Section 1 - title*/
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    color: var(--Black);
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+h1{
+margin-bottom: -20px;
+font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+/*Section 2 - Cards*/
+.cardContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    transform: scale(0.9);
+    margin-right: 2rem;
+    margin-left: 2rem;
+
+}
+/*Links*/
+.cardContainer a:hover{
+    transform: scale(1.05);
+    transition: ease-in 0.2s;
+}
+
+/*Cards*/
+.card1{
+    display: flex;
+    width: 249px;
+    height: 359px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15.678px;
+    background: #00000000;
+    padding: 12px;
+    margin-bottom: 3rem;
+}
+
+.card2{
+    display: block;
+    width: 660px;
+    height: 499px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15.678px;
+    background: #000;
+    box-shadow: 3.136px 2.508px 2.508px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+
+
+/*Columns*/ 
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    justify-items: center;
+    align-items: flex-start;
+
+}
+.col2{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2rem;
+    position: relative;
+}
+
+/*Section 3 - Karriere*/
+.karriere{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.karriere h1{
+    color: var(--Black);
+    margin-bottom: 5rem;
+}
+
+/*Section 4 - student*/
+.student{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-left:-1rem;
+    margin-right: -1rem;
+    margin-bottom: 5rem;
+    justify-self: center;
+    align-content: center;
+}
+.cardStudent{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+    width: 660px;
+    height: 517px;
+    border-radius: 15.678px;
+    background: #000;
+    box-shadow: 3.136px 2.508px 2.508px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: scale(0.4);
+}
+/*Section 5 - uni*/
+.uni{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-left:-1rem;
+    margin-right: -1rem;
+    margin-bottom: 5rem;
+    justify-self: center;
+    align-content: center;
+}
+.cardUni{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+    width: 660px;
+    height: 517px;
+    border-radius: 15.678px;
+    background: #000;
+    box-shadow: 3.136px 2.508px 2.508px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: scale(0.4);
+}
+
+/*Section 6 - MMD*/
+.MMD{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-left:-1rem;
+    margin-right: -1rem;
+    margin-bottom: 5rem;
+    justify-self: center;
+    align-content: center;
+}
+.cardStudent{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+    width: 660px;
+    height: 517px;
+    border-radius: 15.678px;
+    background: #000;
+    box-shadow: 3.136px 2.508px 2.508px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transform: scale(0.4);
+}

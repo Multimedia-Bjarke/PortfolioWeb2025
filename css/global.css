@@ -1,0 +1,31 @@
+/*Colors*/
+
+:root{
+    --Black: #000000;
+    --White: #ffffff;
+    --Orange: #FF9100;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    background-color: var(--Orange);
+    color: white;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/*Links*/
+a{
+    text-decoration: none;
+}
